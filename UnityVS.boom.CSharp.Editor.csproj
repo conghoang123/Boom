@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{2554A9CC-C991-5CB5-3635-8D64181DB6AB}</ProjectGuid>
+    <ProjectGuid>{16A7A6FD-893A-7FE7-9A7E-9B8D9BC50C89}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace></RootNamespace>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -15,9 +15,6 @@
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
     <CompilerResponseFile></CompilerResponseFile>
-    <UnityProjectType>Editor:5</UnityProjectType>
-    <UnityBuildTarget>WP8Player:26</UnityBuildTarget>
-    <UnityVersion>5.0.0f4</UnityVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -99,13 +96,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="UnityVS.boom.CSharp.csproj">
-      <Project>{C1E558FF-3CD4-5AD5-E1AF-89DEE30C7826}</Project>
-      <Name>UnityVS.boom.CSharp</Name>
+    <ProjectReference Include="UnityVS.Boom.CSharp.csproj">
+      <Project>{4689AADF-07A4-D455-1993-27FBBC684BC1}</Project>
+      <Name>UnityVS.Boom.CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityVS.boom.CSharp.Plugins.csproj">
-      <Project>{5033F141-2CD6-06D6-3255-E15153BA7520}</Project>
-      <Name>UnityVS.boom.CSharp.Plugins</Name>
+    <ProjectReference Include="UnityVS.Boom.CSharp.Plugins.csproj">
+      <Project>{BE399210-9E36-A394-83BB-A87CB71DFE94}</Project>
+      <Name>UnityVS.Boom.CSharp.Plugins</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -123,12 +120,14 @@
     <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\Views\PhotonRigidbody2DViewEditor.cs" />
     <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\Views\PhotonRigidbodyViewEditor.cs" />
     <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\Views\PhotonTransformViewEditor.cs" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Assets\Photon Unity Networking\changelog.txt" />
     <None Include="Assets\Photon Unity Networking\readme.txt" />
     <None Include="Assets\Plugins\Photon3Unity3D.xml" />
     <None Include="Assets\Plugins\release_history.txt" />
+    <None Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\Newtonsoft.Json.dll" />
+    <None Include="Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll" />
+    <None Include="Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll" />
+    <None Include="Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>

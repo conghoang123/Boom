@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{C1E558FF-3CD4-5AD5-E1AF-89DEE30C7826}</ProjectGuid>
+    <ProjectGuid>{4689AADF-07A4-D455-1993-27FBBC684BC1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace></RootNamespace>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -15,9 +15,6 @@
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
     <CompilerResponseFile></CompilerResponseFile>
-    <UnityProjectType>Game:1</UnityProjectType>
-    <UnityBuildTarget>WP8Player:26</UnityBuildTarget>
-    <UnityVersion>5.0.0f4</UnityVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -57,9 +54,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="UnityVS.boom.CSharp.Plugins.csproj">
-      <Project>{5033F141-2CD6-06D6-3255-E15153BA7520}</Project>
-      <Name>UnityVS.boom.CSharp.Plugins</Name>
+    <ProjectReference Include="UnityVS.Boom.CSharp.Plugins.csproj">
+      <Project>{BE399210-9E36-A394-83BB-A87CB71DFE94}</Project>
+      <Name>UnityVS.Boom.CSharp.Plugins</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -123,8 +120,7 @@
     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\TimeKeeper.cs" />
     <Compile Include="Assets\Scripts\Ctl_Ready.cs" />
     <Compile Include="Assets\Scripts\Ctl_Start.cs" />
-  </ItemGroup>
-  <ItemGroup>
+    <Compile Include="Assets\Scripts\NetworkController.cs" />
     <None Include="Assets\Photon Unity Networking\changelog.txt" />
     <None Include="Assets\Photon Unity Networking\readme.txt" />
     <None Include="Assets\Plugins\Photon3Unity3D.xml" />

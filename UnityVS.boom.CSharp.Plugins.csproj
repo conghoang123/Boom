@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{5033F141-2CD6-06D6-3255-E15153BA7520}</ProjectGuid>
+    <ProjectGuid>{BE399210-9E36-A394-83BB-A87CB71DFE94}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace></RootNamespace>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -15,9 +15,6 @@
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
     <CompilerResponseFile></CompilerResponseFile>
-    <UnityProjectType>GamePlugins:3</UnityProjectType>
-    <UnityBuildTarget>WP8Player:26</UnityBuildTarget>
-    <UnityVersion>5.0.0f4</UnityVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -67,12 +64,11 @@
     <Compile Include="Assets\Plugins\ChatApi\ChatState.cs" />
     <Compile Include="Assets\Plugins\ChatApi\ChatUserStatus.cs" />
     <Compile Include="Assets\Plugins\ChatApi\IChatClientListener.cs" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Assets\Photon Unity Networking\changelog.txt" />
     <None Include="Assets\Photon Unity Networking\readme.txt" />
     <None Include="Assets\Plugins\Photon3Unity3D.xml" />
     <None Include="Assets\Plugins\release_history.txt" />
+    <None Include="Assets\Plugins\Photon3Unity3D.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>
