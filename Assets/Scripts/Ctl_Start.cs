@@ -8,9 +8,8 @@ public class Ctl_Start : MonoBehaviour
     {
         photonView = GetComponent<PhotonView>();
     }
-    public void Click_VaoNhanh()
+    public void Click_VaoDauTruong()
     {
-        //Application.LoadLevel("ready");
-        
+        Application.LoadLevel("chonphong");
     }
 }
